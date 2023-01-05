@@ -1,0 +1,11 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+
+body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+}

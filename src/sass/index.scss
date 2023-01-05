@@ -1,2 +1,12 @@
-@import './common';
-@import './example';
+@import './utils/vars';
+@import './base/reset';
+@import './base/common';
+@import './utils/mixins';
+@import './utils/hidden';
+
+@import './components/button';
+@import './components/container';
+@import './components/section';
+@import './layouts/header';
+@import './layouts/section-top-sales';
+@import './layouts/footer';

@@ -1,0 +1,57 @@
+// .top-sales {
+// }
+
+.top-sales__title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.sales-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+.sales-cards__item {
+  flex-basis: calc(100% / 4 - 52.5px);
+}
+.sales-cards__link {
+  display: block;
+  color: var(--title-text-color);
+  transition: all var(--animation);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
+  &:hover h3,
+  &:focus h3 {
+    color: var(--accent-color);
+  }
+}
+.product {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+.product__card {
+  box-sizing: border-box;
+}
+.product__content {
+  flex-grow: 1;
+  padding: 10px 14px;
+}
+.product__content--title {
+  color: var(--title-text-color);
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.product__content--price {
+  color: var(--title-text-color);
+  font-size: 14px;
+}

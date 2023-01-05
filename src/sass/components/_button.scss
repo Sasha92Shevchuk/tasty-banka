@@ -1,0 +1,17 @@
+button {
+  border: 0;
+  display: inline-block;
+  padding: 0;
+  transition: 0.3s all ease;
+}
+
+.btn,
+button {
+  background: 0 0;
+  cursor: pointer;
+  //   -moz-transition: 0.3s all ease;
+  //   -o-transition: 0.3s all ease;
+  //   outline-offset: 0;
+  //   -webkit-appearance: none;
+  //   -webkit-transition: 0.3s all ease;
+}
